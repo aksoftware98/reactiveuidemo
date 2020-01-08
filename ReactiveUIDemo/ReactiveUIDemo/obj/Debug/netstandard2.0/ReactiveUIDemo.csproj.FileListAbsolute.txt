@@ -1,0 +1,13 @@
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\bin\Debug\netstandard2.0\ReactiveUIDemo.deps.json
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\bin\Debug\netstandard2.0\ReactiveUIDemo.dll
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ReactiveUIDemo.csprojAssemblyReference.cache
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ReactiveUIDemo.AssemblyInfoInputs.cache
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ReactiveUIDemo.AssemblyInfo.cs
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\bin\Debug\netstandard2.0\ref\ReactiveUIDemo.dll
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\bin\Debug\netstandard2.0\ReactiveUIDemo.pdb
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ReactiveUIDemo.dll
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ref\ReactiveUIDemo.dll
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ReactiveUIDemo.pdb
