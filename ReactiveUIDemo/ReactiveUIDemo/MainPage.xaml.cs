@@ -18,5 +18,6 @@ namespace ReactiveUIDemo
             InitializeComponent();
             //BindingContext = new LoginViewModel(); 
         }
+
     }
 }

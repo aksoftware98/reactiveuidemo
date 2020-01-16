@@ -11,3 +11,4 @@ C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\Reac
 C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ReactiveUIDemo.dll
 C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ref\ReactiveUIDemo.dll
 C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\ReactiveUIDemo.pdb
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\Pages\ColorsDemoPage.xaml.g.cs
