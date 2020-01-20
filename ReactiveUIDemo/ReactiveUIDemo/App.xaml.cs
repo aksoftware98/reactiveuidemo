@@ -11,7 +11,7 @@ namespace ReactiveUIDemo
         {
             InitializeComponent();
 
-            MainPage = new ColorsDemoPage();
+            MainPage = new ContactsPage();
         }
 
         protected override void OnStart()
