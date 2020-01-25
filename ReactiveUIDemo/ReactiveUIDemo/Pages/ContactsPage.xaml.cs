@@ -1,4 +1,5 @@
-﻿using ReactiveUIDemo.ViewModels;
+﻿using ReactiveUI;
+using ReactiveUIDemo.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -9,6 +9,7 @@
         <StackLayout>
             <Entry Margin="3" Placeholder="Search" Text="{Binding SearchQuery}"/>
             <Label Text="{Binding SearchResult}" Margin="2"/>
+            <Button Text="Clear" Margin="2" BackgroundColor="Red" TextColor="White" Command="{Binding ClearCommand}"/>
             <ListView HasUnevenRows="True" ItemsSource="{Binding Contacts}" Margin="2">
                 <ListView.ItemTemplate>
                     <DataTemplate>
