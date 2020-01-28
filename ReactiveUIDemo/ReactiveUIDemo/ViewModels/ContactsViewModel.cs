@@ -4,7 +4,9 @@ using ReactiveUIDemo.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
+using System.Reactive;
 using System.Reactive.Linq;
 using System.Text;
 using System.Windows.Input;
@@ -42,6 +44,11 @@ namespace ReactiveUIDemo.ViewModels
                 .ToProperty(this, vm => vm.SearchResult, out _searchResult);
 
             ClearCommand = ReactiveCommand.Create(ClearSearch);
+            // HAndle the Exceptions 
+            ClearCommand.ThrownExceptions.Subscribe(ex =>
+            {
+                Debug.WriteLine(ex.Message); 
+            });
         }
 
         #region Properties
@@ -66,13 +73,14 @@ namespace ReactiveUIDemo.ViewModels
         #endregion
 
         #region Commands
-        public ICommand ClearCommand { get; }
+        public ReactiveCommand<Unit, Unit> ClearCommand { get; }
         #endregion 
 
         #region Methods
         private void ClearSearch()
         {
-            SearchQuery = string.Empty; 
+            throw new Exception("This is an example"); 
+            //SearchQuery = string.Empty; 
         }
         #endregion 
     }

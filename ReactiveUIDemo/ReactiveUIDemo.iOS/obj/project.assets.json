@@ -14,7 +14,7 @@
           "lib/netstandard2.0/DynamicData.dll": {}
         }
       },
-      "ReactiveUI/11.1.1": {
+      "ReactiveUI/11.1.12": {
         "type": "package",
         "dependencies": {
           "DynamicData": "6.14.3",
@@ -32,11 +32,11 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
-      "ReactiveUI.XamForms/10.0.1": {
+      "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
-          "ReactiveUI": "10.0.1",
-          "Xamarin.Forms": "4.1.0.709244"
+          "ReactiveUI": "11.1.12",
+          "Xamarin.Forms": "4.3.0.991250"
         },
         "compile": {
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {}
@@ -110,7 +110,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.2.0": {
+      "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -125,7 +125,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.4.0.991537": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -252,10 +252,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ReactiveUI": "11.1.1",
-          "ReactiveUI.XamForms": "10.0.1",
+          "ReactiveUI": "11.1.12",
+          "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Forms": "4.4.0.991537"
         },
         "compile": {
           "bin/placeholder/ReactiveUIDemo.dll": {}
@@ -278,7 +278,7 @@
           "lib/netstandard2.0/DynamicData.dll": {}
         }
       },
-      "ReactiveUI/11.1.1": {
+      "ReactiveUI/11.1.12": {
         "type": "package",
         "dependencies": {
           "DynamicData": "6.14.3",
@@ -296,11 +296,11 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
-      "ReactiveUI.XamForms/10.0.1": {
+      "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
-          "ReactiveUI": "10.0.1",
-          "Xamarin.Forms": "4.1.0.709244"
+          "ReactiveUI": "11.1.12",
+          "Xamarin.Forms": "4.3.0.991250"
         },
         "compile": {
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {}
@@ -374,7 +374,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.2.0": {
+      "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -389,7 +389,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.4.0.991537": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -516,10 +516,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ReactiveUI": "11.1.1",
-          "ReactiveUI.XamForms": "10.0.1",
+          "ReactiveUI": "11.1.12",
+          "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Forms": "4.4.0.991537"
         },
         "compile": {
           "bin/placeholder/ReactiveUIDemo.dll": {}
@@ -542,7 +542,7 @@
           "lib/netstandard2.0/DynamicData.dll": {}
         }
       },
-      "ReactiveUI/11.1.1": {
+      "ReactiveUI/11.1.12": {
         "type": "package",
         "dependencies": {
           "DynamicData": "6.14.3",
@@ -560,11 +560,11 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
-      "ReactiveUI.XamForms/10.0.1": {
+      "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
-          "ReactiveUI": "10.0.1",
-          "Xamarin.Forms": "4.1.0.709244"
+          "ReactiveUI": "11.1.12",
+          "Xamarin.Forms": "4.3.0.991250"
         },
         "compile": {
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {}
@@ -638,7 +638,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.2.0": {
+      "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -653,7 +653,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.4.0.991537": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -780,10 +780,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ReactiveUI": "11.1.1",
-          "ReactiveUI.XamForms": "10.0.1",
+          "ReactiveUI": "11.1.12",
+          "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Forms": "4.4.0.991537"
         },
         "compile": {
           "bin/placeholder/ReactiveUIDemo.dll": {}
@@ -806,7 +806,7 @@
           "lib/netstandard2.0/DynamicData.dll": {}
         }
       },
-      "ReactiveUI/11.1.1": {
+      "ReactiveUI/11.1.12": {
         "type": "package",
         "dependencies": {
           "DynamicData": "6.14.3",
@@ -824,11 +824,11 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
-      "ReactiveUI.XamForms/10.0.1": {
+      "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
-          "ReactiveUI": "10.0.1",
-          "Xamarin.Forms": "4.1.0.709244"
+          "ReactiveUI": "11.1.12",
+          "Xamarin.Forms": "4.3.0.991250"
         },
         "compile": {
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {}
@@ -902,7 +902,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.2.0": {
+      "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -917,7 +917,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.4.0.991537": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1044,10 +1044,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ReactiveUI": "11.1.1",
-          "ReactiveUI.XamForms": "10.0.1",
+          "ReactiveUI": "11.1.12",
+          "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Forms": "4.4.0.991537"
         },
         "compile": {
           "bin/placeholder/ReactiveUIDemo.dll": {}
@@ -1078,10 +1078,10 @@
         "lib/uap10.0.16299/DynamicData.xml"
       ]
     },
-    "ReactiveUI/11.1.1": {
-      "sha512": "5K61BN/cKNO05VrocDAhMmnkdyd9yrbxFpwi6VLHdGhBOwMVE8Kv2TvTnP9BB749W5R2hRC4IFTHQ6lXD0gGZA==",
+    "ReactiveUI/11.1.12": {
+      "sha512": "nQdb+Vx1ir+NfOYoMz8104atjvrpJ8wZWmVzBD/M34tuc9vSWiHBtOHgE0bxMTkZ76p3r1qF8f4oIh49KqMz4w==",
       "type": "package",
-      "path": "reactiveui/11.1.1",
+      "path": "reactiveui/11.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1108,21 +1108,21 @@
         "lib/xamarinmac20/ReactiveUI.xml",
         "lib/xamarintvos10/ReactiveUI.dll",
         "lib/xamarintvos10/ReactiveUI.xml",
-        "reactiveui.11.1.1.nupkg.sha512",
+        "reactiveui.11.1.12.nupkg.sha512",
         "reactiveui.nuspec"
       ]
     },
-    "ReactiveUI.XamForms/10.0.1": {
-      "sha512": "hs0AVYj95fCPqUGlHNBD5iSm6IwOg+iDp2vlO0l53H5dWMGsVSJmnutvPQpvN1P827vrS2+9ZjVKUqZD63sVKg==",
+    "ReactiveUI.XamForms/11.1.12": {
+      "sha512": "1VktIntJcKU7F3CWgxbIRGR1gcarzKVyNk9zKeC7l2haErST6LSTaE2RE9wV1UcEK1Y8klQWVofI/Ppl+dwBPg==",
       "type": "package",
-      "path": "reactiveui.xamforms/10.0.1",
+      "path": "reactiveui.xamforms/11.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
         "lib/netstandard2.0/ReactiveUI.XamForms.dll",
         "lib/netstandard2.0/ReactiveUI.XamForms.xml",
-        "reactiveui.xamforms.10.0.1.nupkg.sha512",
+        "reactiveui.xamforms.11.1.12.nupkg.sha512",
         "reactiveui.xamforms.nuspec"
       ]
     },
@@ -1348,10 +1348,10 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.2.0": {
-      "sha512": "o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
+    "Xamarin.Essentials/1.3.1": {
+      "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
       "type": "package",
-      "path": "xamarin.essentials/1.2.0",
+      "path": "xamarin.essentials/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1379,6 +1379,9 @@
         "lib/netstandard2.0/Xamarin.Essentials.dll",
         "lib/netstandard2.0/Xamarin.Essentials.pdb",
         "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
         "lib/uap10.0.16299/Xamarin.Essentials.dll",
         "lib/uap10.0.16299/Xamarin.Essentials.pdb",
         "lib/uap10.0.16299/Xamarin.Essentials.pri",
@@ -1386,15 +1389,21 @@
         "lib/xamarinios10/Xamarin.Essentials.dll",
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.2.0.nupkg.sha512",
+        "xamarin.essentials.1.3.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.709249": {
-      "sha512": "3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
+    "Xamarin.Forms/4.4.0.991537": {
+      "sha512": "ZoOvfinSUma4gbXe/0mp6Uk/NTliFLkOwV9qLe/TW2VwSlBEhoiok99gr4esZVU+RwCPEqnsgmtlWFSMNzn2iw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.709249",
+      "path": "xamarin.forms/4.4.0.991537",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1607,33 +1616,19 @@
         "lib/tizen40/Xamarin.Forms.Xaml.xml",
         "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
         "lib/uap10.0/Xamarin.Forms.Core.pdb",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.4.4.0.991537.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1646,8 +1641,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "ReactiveUIDemo >= 1.0.0",
-      "Xamarin.Essentials >= 1.2.0",
-      "Xamarin.Forms >= 4.2.0.709249"
+      "Xamarin.Essentials >= 1.3.1",
+      "Xamarin.Forms >= 4.4.0.991537"
     ]
   },
   "packageFolders": {
@@ -1694,11 +1689,11 @@
         "dependencies": {
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.2.0, )"
+            "version": "[1.3.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.709249, )"
+            "version": "[4.4.0.991537, )"
           }
         }
       }

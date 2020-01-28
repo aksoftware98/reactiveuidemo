@@ -44,15 +44,15 @@
           "dependencies": {
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.4.0.991537, )"
             }
           }
         }
@@ -105,11 +105,11 @@
             },
             "ReactiveUI": {
               "target": "Package",
-              "version": "[11.1.1, )"
+              "version": "[11.1.12, )"
             },
             "ReactiveUI.XamForms": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[11.1.12, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -117,7 +117,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.4.0.991537, )"
             }
           },
           "imports": [
@@ -130,7 +130,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

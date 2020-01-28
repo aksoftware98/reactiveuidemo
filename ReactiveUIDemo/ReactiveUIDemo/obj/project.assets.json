@@ -47,7 +47,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "ReactiveUI/11.1.1": {
+      "ReactiveUI/11.1.12": {
         "type": "package",
         "dependencies": {
           "DynamicData": "6.14.3",
@@ -65,11 +65,11 @@
           "lib/netstandard2.0/ReactiveUI.dll": {}
         }
       },
-      "ReactiveUI.XamForms/10.0.1": {
+      "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
-          "ReactiveUI": "10.0.1",
-          "Xamarin.Forms": "4.1.0.709244"
+          "ReactiveUI": "11.1.12",
+          "Xamarin.Forms": "4.3.0.991250"
         },
         "compile": {
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {}
@@ -485,7 +485,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.4.0.991537": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -683,10 +683,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "ReactiveUI/11.1.1": {
-      "sha512": "5K61BN/cKNO05VrocDAhMmnkdyd9yrbxFpwi6VLHdGhBOwMVE8Kv2TvTnP9BB749W5R2hRC4IFTHQ6lXD0gGZA==",
+    "ReactiveUI/11.1.12": {
+      "sha512": "nQdb+Vx1ir+NfOYoMz8104atjvrpJ8wZWmVzBD/M34tuc9vSWiHBtOHgE0bxMTkZ76p3r1qF8f4oIh49KqMz4w==",
       "type": "package",
-      "path": "reactiveui/11.1.1",
+      "path": "reactiveui/11.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -713,21 +713,21 @@
         "lib/xamarinmac20/ReactiveUI.xml",
         "lib/xamarintvos10/ReactiveUI.dll",
         "lib/xamarintvos10/ReactiveUI.xml",
-        "reactiveui.11.1.1.nupkg.sha512",
+        "reactiveui.11.1.12.nupkg.sha512",
         "reactiveui.nuspec"
       ]
     },
-    "ReactiveUI.XamForms/10.0.1": {
-      "sha512": "hs0AVYj95fCPqUGlHNBD5iSm6IwOg+iDp2vlO0l53H5dWMGsVSJmnutvPQpvN1P827vrS2+9ZjVKUqZD63sVKg==",
+    "ReactiveUI.XamForms/11.1.12": {
+      "sha512": "1VktIntJcKU7F3CWgxbIRGR1gcarzKVyNk9zKeC7l2haErST6LSTaE2RE9wV1UcEK1Y8klQWVofI/Ppl+dwBPg==",
       "type": "package",
-      "path": "reactiveui.xamforms/10.0.1",
+      "path": "reactiveui.xamforms/11.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
         "lib/netstandard2.0/ReactiveUI.XamForms.dll",
         "lib/netstandard2.0/ReactiveUI.XamForms.xml",
-        "reactiveui.xamforms.10.0.1.nupkg.sha512",
+        "reactiveui.xamforms.11.1.12.nupkg.sha512",
         "reactiveui.xamforms.nuspec"
       ]
     },
@@ -2573,10 +2573,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.709249": {
-      "sha512": "3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
+    "Xamarin.Forms/4.4.0.991537": {
+      "sha512": "ZoOvfinSUma4gbXe/0mp6Uk/NTliFLkOwV9qLe/TW2VwSlBEhoiok99gr4esZVU+RwCPEqnsgmtlWFSMNzn2iw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.709249",
+      "path": "xamarin.forms/4.4.0.991537",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2789,33 +2789,19 @@
         "lib/tizen40/Xamarin.Forms.Xaml.xml",
         "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
         "lib/uap10.0/Xamarin.Forms.Core.pdb",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.4.4.0.991537.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -2823,10 +2809,10 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "ReactiveUI >= 11.1.1",
-      "ReactiveUI.XamForms >= 10.0.1",
+      "ReactiveUI >= 11.1.12",
+      "ReactiveUI.XamForms >= 11.1.12",
       "Xamarin.Essentials >= 1.2.0",
-      "Xamarin.Forms >= 4.2.0.709249"
+      "Xamarin.Forms >= 4.4.0.991537"
     ]
   },
   "packageFolders": {
@@ -2881,11 +2867,11 @@
           },
           "ReactiveUI": {
             "target": "Package",
-            "version": "[11.1.1, )"
+            "version": "[11.1.12, )"
           },
           "ReactiveUI.XamForms": {
             "target": "Package",
-            "version": "[10.0.1, )"
+            "version": "[11.1.12, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
@@ -2893,7 +2879,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.709249, )"
+            "version": "[4.4.0.991537, )"
           }
         },
         "imports": [
@@ -2906,7 +2892,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
