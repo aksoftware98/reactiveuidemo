@@ -43,7 +43,16 @@ namespace ReactiveUIDemo.ViewModels
                 })
                 .ToProperty(this, vm => vm.SearchResult, out _searchResult);
 
-            ClearCommand = ReactiveCommand.Create(ClearSearch);
+            var canExecuteClear = this.WhenAnyValue(vm => vm.SearchQuery)
+                                    .Select(query =>
+                                    {
+                                        if (string.IsNullOrWhiteSpace(query))
+                                            return false;
+
+                                        return true; 
+                                    });
+
+            ClearCommand = ReactiveCommand.Create(ClearSearch, canExecuteClear);
             // HAndle the Exceptions 
             ClearCommand.ThrownExceptions.Subscribe(ex =>
             {
@@ -79,8 +88,8 @@ namespace ReactiveUIDemo.ViewModels
         #region Methods
         private void ClearSearch()
         {
-            throw new Exception("This is an example"); 
-            //SearchQuery = string.Empty; 
+            //throw new Exception("This is an example"); 
+            SearchQuery = string.Empty;
         }
         #endregion 
     }
