@@ -12,7 +12,7 @@ namespace ReactiveUIDemo
             InitializeComponent();
 
             new AppBootstrapper(); 
-            MainPage = new CommandBindPage();
+            MainPage = new ValidationDemoPage();
         }
 
         protected override void OnStart()

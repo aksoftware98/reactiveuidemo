@@ -32,6 +32,18 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
+      "ReactiveUI.Validation/1.4.7": {
+        "type": "package",
+        "dependencies": {
+          "ReactiveUI": "11.1.6"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        }
+      },
       "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
@@ -253,6 +265,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ReactiveUI": "11.1.12",
+          "ReactiveUI.Validation": "1.4.7",
           "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.4.0.991537"
@@ -296,6 +309,18 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
+      "ReactiveUI.Validation/1.4.7": {
+        "type": "package",
+        "dependencies": {
+          "ReactiveUI": "11.1.6"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        }
+      },
       "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
@@ -517,6 +542,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ReactiveUI": "11.1.12",
+          "ReactiveUI.Validation": "1.4.7",
           "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.4.0.991537"
@@ -560,6 +586,18 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
+      "ReactiveUI.Validation/1.4.7": {
+        "type": "package",
+        "dependencies": {
+          "ReactiveUI": "11.1.6"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        }
+      },
       "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
@@ -781,6 +819,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ReactiveUI": "11.1.12",
+          "ReactiveUI.Validation": "1.4.7",
           "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.4.0.991537"
@@ -824,6 +863,18 @@
           "lib/xamarinios10/ReactiveUI.dll": {}
         }
       },
+      "ReactiveUI.Validation/1.4.7": {
+        "type": "package",
+        "dependencies": {
+          "ReactiveUI": "11.1.6"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.Validation.dll": {}
+        }
+      },
       "ReactiveUI.XamForms/11.1.12": {
         "type": "package",
         "dependencies": {
@@ -1045,6 +1096,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ReactiveUI": "11.1.12",
+          "ReactiveUI.Validation": "1.4.7",
           "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.4.0.991537"
@@ -1110,6 +1162,35 @@
         "lib/xamarintvos10/ReactiveUI.xml",
         "reactiveui.11.1.12.nupkg.sha512",
         "reactiveui.nuspec"
+      ]
+    },
+    "ReactiveUI.Validation/1.4.7": {
+      "sha512": "ll0F9qKQ1ZArecVgOBweH4wPN/y5+bYgvaEl3KK7U8XLWOU8ODpIn1UU5u+AghdTpJMBManWCxZFB/Qd0GtscA==",
+      "type": "package",
+      "path": "reactiveui.validation/1.4.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/monoandroid90/ReactiveUI.Validation.dll",
+        "lib/monoandroid90/ReactiveUI.Validation.xml",
+        "lib/net461/ReactiveUI.Validation.dll",
+        "lib/net461/ReactiveUI.Validation.xml",
+        "lib/netstandard2.0/ReactiveUI.Validation.dll",
+        "lib/netstandard2.0/ReactiveUI.Validation.xml",
+        "lib/tizen40/ReactiveUI.Validation.dll",
+        "lib/tizen40/ReactiveUI.Validation.xml",
+        "lib/uap10.0.17763/ReactiveUI.Validation.dll",
+        "lib/uap10.0.17763/ReactiveUI.Validation.pri",
+        "lib/uap10.0.17763/ReactiveUI.Validation.xml",
+        "lib/xamarinios10/ReactiveUI.Validation.dll",
+        "lib/xamarinios10/ReactiveUI.Validation.xml",
+        "lib/xamarinmac20/ReactiveUI.Validation.dll",
+        "lib/xamarinmac20/ReactiveUI.Validation.xml",
+        "lib/xamarintvos10/ReactiveUI.Validation.dll",
+        "lib/xamarintvos10/ReactiveUI.Validation.xml",
+        "reactiveui.validation.1.4.7.nupkg.sha512",
+        "reactiveui.validation.nuspec"
       ]
     },
     "ReactiveUI.XamForms/11.1.12": {

@@ -6,6 +6,7 @@ public class MonoPackageManager_Resources {
 		"DynamicData.dll",
 		"FormsViewGroup.dll",
 		"ReactiveUI.dll",
+		"ReactiveUI.Validation.dll",
 		"ReactiveUI.XamForms.dll",
 		"ReactiveUIDemo.dll",
 		"Splat.dll",

@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "ReactiveUI": "11.1.12",
+          "ReactiveUI.Validation": "1.4.7",
           "ReactiveUI.XamForms": "11.1.12",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.4.0.991537"
@@ -51,6 +52,17 @@
           "lib/netstandard2.0/ReactiveUI.dll": {
             "assemblyVersion": "11.1.0.0",
             "fileVersion": "11.1.12.64691"
+          }
+        }
+      },
+      "ReactiveUI.Validation/1.4.7": {
+        "dependencies": {
+          "ReactiveUI": "11.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ReactiveUI.Validation.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.7.43022"
           }
         }
       },
@@ -464,6 +476,13 @@
       "sha512": "sha512-nQdb+Vx1ir+NfOYoMz8104atjvrpJ8wZWmVzBD/M34tuc9vSWiHBtOHgE0bxMTkZ76p3r1qF8f4oIh49KqMz4w==",
       "path": "reactiveui/11.1.12",
       "hashPath": "reactiveui.11.1.12.nupkg.sha512"
+    },
+    "ReactiveUI.Validation/1.4.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ll0F9qKQ1ZArecVgOBweH4wPN/y5+bYgvaEl3KK7U8XLWOU8ODpIn1UU5u+AghdTpJMBManWCxZFB/Qd0GtscA==",
+      "path": "reactiveui.validation/1.4.7",
+      "hashPath": "reactiveui.validation.1.4.7.nupkg.sha512"
     },
     "ReactiveUI.XamForms/11.1.12": {
       "type": "package",

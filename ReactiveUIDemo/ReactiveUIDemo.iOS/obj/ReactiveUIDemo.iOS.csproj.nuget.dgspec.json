@@ -114,6 +114,10 @@
               "target": "Package",
               "version": "[11.1.12, )"
             },
+            "ReactiveUI.Validation": {
+              "target": "Package",
+              "version": "[1.4.7, )"
+            },
             "ReactiveUI.XamForms": {
               "target": "Package",
               "version": "[11.1.12, )"
