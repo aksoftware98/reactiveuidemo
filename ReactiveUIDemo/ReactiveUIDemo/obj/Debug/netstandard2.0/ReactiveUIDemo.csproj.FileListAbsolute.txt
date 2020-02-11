@@ -15,3 +15,5 @@ C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\Reac
 C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\Pages\CommandBindPage.xaml.g.cs
 C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\Pages\ValidationDemoPage.xaml.g.cs
 C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\Pages\FirstPage.xaml.g.cs
+C:\Users\dell\Documents\AK Academy\ReactiveUI\ReactiveUIDemo\ReactiveUIDemo\ReactiveUIDemo\obj\Debug\netstandard2.0\Pages\SecondPage.xaml.g.cs
