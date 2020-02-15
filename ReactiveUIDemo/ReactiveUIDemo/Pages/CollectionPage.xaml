@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<reactiveui:ReactiveContentPage
+             x:TypeArguments="vm:CollectionViewModel"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:reactiveui="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+             xmlns:vm="clr-namespace:ReactiveUIDemo.ViewModels"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ReactiveUIDemo.Pages.CollectionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView HasUnevenRows="True" ItemsSource="{Binding Contacts}" Margin="2">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame CornerRadius="5" Margin="2" Padding="4">
+                                <StackLayout Spacing="3">
+                                    <Label HorizontalOptions="Center" Text="{Binding FullName}" FontSize="Large" TextColor="Black"/>
+                                    <Label HorizontalOptions="Center" Text="{Binding Phone}" FontSize="Medium" TextColor="DarkGray"/>
+                                    <Label HorizontalOptions="Center" Text="{Binding Email}" FontSize="Small" TextColor="Gray"/>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</reactiveui:ReactiveContentPage>

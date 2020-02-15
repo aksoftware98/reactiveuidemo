@@ -20,9 +20,9 @@ namespace ReactiveUIDemo
             Locator.CurrentMutable.RegisterConstant(this, typeof(IScreen)); 
 
             RegisterServices();
-            RegisterViews(); 
+            RegisterViews();
 
-            Router.Navigate.Execute(new FirstViewModel());
+            Router.Navigate.Execute(new CollectionViewModel());
         }
 
         public RoutingState Router { get; }
@@ -36,6 +36,7 @@ namespace ReactiveUIDemo
         {
             Locator.CurrentMutable.Register(() => new FirstPage(), typeof(IViewFor<FirstViewModel>)); 
             Locator.CurrentMutable.Register(() => new SecondPage(), typeof(IViewFor<SecondViewModel>));
+            Locator.CurrentMutable.Register(() => new CollectionPage(), typeof(IViewFor<CollectionViewModel>));
             //Locator.CurrentMutable.RegisterViewsForViewModels(Assembly.GetExecutingAssembly()); 
         }
 
