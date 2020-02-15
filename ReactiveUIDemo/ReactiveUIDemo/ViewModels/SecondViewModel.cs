@@ -3,6 +3,7 @@ using Splat;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
 
 namespace ReactiveUIDemo.ViewModels
 {
@@ -16,7 +17,12 @@ namespace ReactiveUIDemo.ViewModels
         {
             HostScreen = screen ?? Locator.Current.GetService<IScreen>();
 
-            Message = message; 
+            Message = message;
+
+            ConfirmCommand = ReactiveCommand.Create(() =>
+            {
+                MessageBus.Current.SendMessage<string>($"Recevied at {DateTime.Now}");
+            });
         }
 
         private string _message = string.Empty;
@@ -25,5 +31,7 @@ namespace ReactiveUIDemo.ViewModels
             get => _message;
             set { this.RaiseAndSetIfChanged(ref _message, value); }
         }
+
+        public ICommand ConfirmCommand { get; }
     }
 }

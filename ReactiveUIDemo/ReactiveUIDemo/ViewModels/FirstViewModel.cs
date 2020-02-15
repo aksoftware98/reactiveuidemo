@@ -21,6 +21,8 @@ namespace ReactiveUIDemo.ViewModels
             {
                 return HostScreen.Router.Navigate.Execute(new SecondViewModel(Message));
             });
+
+            MessageBus.Current.Listen<string>().Subscribe(m => Message = m);
         }
 
         private string _message = string.Empty;

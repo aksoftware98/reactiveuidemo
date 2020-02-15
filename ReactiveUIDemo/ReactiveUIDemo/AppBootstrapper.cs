@@ -21,8 +21,8 @@ namespace ReactiveUIDemo
 
             RegisterServices();
             RegisterViews();
-
-            Router.Navigate.Execute(new CollectionViewModel());
+            
+            Router.Navigate.Execute(new FirstViewModel());
         }
 
         public RoutingState Router { get; }
